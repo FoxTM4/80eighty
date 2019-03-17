@@ -1,0 +1,105 @@
+
+.header{
+    display: inline-block;
+    font-weight: 400;
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    @include hwc(2.5vh, 100vw, gray);
+    
+    p{
+        margin-right: 1vw;
+        position: relative;
+        margin-top: 2px;
+    }
+}
+
+.title-cart-container{
+    display: block;
+    @include hwc(10vh, 100vw, black);
+    
+    #img{
+        position: absolute;
+        left: 8%;
+        top: 4%;
+    }
+   
+
+    button{
+        border-color: rgb(90, 137, 220);
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-left: 8px;
+        height: 28px;
+        border-width: 2px;
+        border-radius: 4px
+    }
+    button:focus{
+        outline: none;
+    }
+    .button-container{
+        position: absolute;
+    top: 9%;
+    margin-top: -20px;
+    z-index: 1;
+    display: inline-block;
+    height: 40px;
+    right: 18vw;
+    text-align: right;
+    vertical-align: middle;
+    }
+    .cart-container{
+        width: 50px;
+        height: 50px;
+    #cart-logo{
+        position: absolute;
+        width: 30px;
+        filter: invert(88%) sepia(60%) saturate(2313%) hue-rotate(31deg) brightness(101%) contrast(100%);
+        left: 85%;
+        top: 6%;
+    }
+    .circle{
+        @include hwc(15px, 15px, #ed5348);
+        border-radius: 50%;
+        position: absolute;
+        top: 5%;
+        left: 86.2%;
+        text-align: center;
+        color: white;
+    }
+}
+}
+
+.Link-container{
+    display: block;
+    justify-content: space-evenly;
+    text-align: center;
+    
+    
+    @include hwc(7vh, 100vw, black);
+    button{
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        margin-top: 2vh;
+        font-weight: 700;
+        margin-left: 2vw;
+
+
+    }
+    button:focus{
+        outline: none;
+    }
+    button:hover{
+        color: blue;
+    }
+
+
+
+}
+
+}
