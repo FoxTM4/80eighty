@@ -32,6 +32,15 @@ class Mens extends Component {
       <button>Add To Cart</button>
       </div>
       </div>
+      <div className='eachItem'>
+      <img src={require('../assets/gtr-longbody.jpeg')}
+      alt='gtr shirt grey'/>
+      <div className="info">
+      <h3>80Eighty GTR Long Body Shirt</h3>
+        <h1>$30.00</h1>
+      <button>Add To Cart</button>
+      </div>
+      </div>
       </div>
       </div>
     );

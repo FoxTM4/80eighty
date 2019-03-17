@@ -2,7 +2,7 @@
 
     .grid-container{
         display: grid;
-        grid-template-columns: 26% 26% 26%;
+        grid-template-columns: 20% 20% 20% 20%;
         margin-top: 2vh;
         justify-content: space-evenly;
         
@@ -10,7 +10,7 @@
 
         .eachItem{
             background-color: #eee;
-            margin-left: 2vw;
+            // margin-left: 2vw;
             height: 60vh;
             width: 20vw;
             
